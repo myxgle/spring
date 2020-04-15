@@ -8,12 +8,17 @@
 		<version>2.1.13.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.myx</groupId>
+	<artifactId>spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<!--必须要, 不然maven清除或其他功能报错-->
+	<packaging>pom</packaging>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
-
+	<!--必须要, 引入子模块-->
+	<modules>
+		<module>mybaits-mapper</module>
+	</modules>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
