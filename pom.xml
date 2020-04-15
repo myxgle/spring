@@ -13,7 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<!--必须要, 不然maven清除或其他功能报错-->
 	<packaging>pom</packaging>
-	<name>demo</name>
+	<name>spring</name>
 	<description>Demo project for Spring Boot</description>
 	<!--必须要, 引入子模块-->
 	<modules>
@@ -44,5 +44,33 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<profiles>
+		<profile>
+			<!-- 本地开发环境 -->
+			<id>dev</id>
+			<properties>
+				<profiles.active>dev</profiles.active>
+				<spring.cloud.config.uri>http://127.0.0.1:8080</spring.cloud.config.uri>
+			</properties>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+		<profile>
+			<!-- 测试环境 -->
+			<id>test</id>
+			<properties>
+				<profiles.active>test</profiles.active>
+				<spring.cloud.config.uri>http://127.0.0.1:8081</spring.cloud.config.uri>
+			</properties>
+		</profile>
+		<profile>
+			<!-- 生产环境 -->
+			<id>prod</id>
+			<properties>
+				<profiles.active>prod</profiles.active>
+				<spring.cloud.config.uri>http://127.0.0.1:8082</spring.cloud.config.uri>
+			</properties>
+		</profile>
+	</profiles>
 </project>
