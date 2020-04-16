@@ -1,0 +1,38 @@
+2020-04-16 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication on CQCA18223236506 with PID 7048 (D:\dev\custom\spring\mybaits-mapper\target\classes started by YX in D:\dev\custom\spring)
+2020-04-16 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2020-04-16 === [main] === WARN  === tk.mybatis.spring.mapper.ClassPathMapperScanner ==== No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2020-04-16 === [main] === WARN  === org.mybatis.spring.mapper.ClassPathMapperScanner ==== No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2020-04-16 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+2020-04-16 === [main] === INFO  === org.apache.coyote.http11.Http11NioProtocol ==== Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-16 === [main] === INFO  === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+2020-04-16 === [main] === INFO  === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 === [main] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring embedded WebApplicationContext
+2020-04-16 === [main] === INFO  === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1022 ms
+2020-04-16 === [main] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 === [main] === WARN  === o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration ==== Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-04-16 === [main] === INFO  === t.mybatis.mapper.autoconfigure.MapperCacheDisabler ==== Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-04-16 === [main] === INFO  === t.mybatis.mapper.autoconfigure.MapperCacheDisabler ==== Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-04-16 === [main] === INFO  === t.mybatis.mapper.autoconfigure.MapperCacheDisabler ==== Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-04-16 === [main] === INFO  === t.mybatis.mapper.autoconfigure.MapperCacheDisabler ==== Clear EntityHelper entityTableMap cache.
+2020-04-16 === [main] === INFO  === org.apache.coyote.http11.Http11NioProtocol ==== Starting ProtocolHandler ["http-nio-8080"]
+2020-04-16 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 1.942 seconds (JVM running for 2.708)
+2020-04-16 10:22:40.688 [main] INFO  com.example.demo.DemoApplication Starting DemoApplication on CQCA18223236506 with PID 10204 (D:\dev\custom\spring\mybaits-mapper\target\classes started by YX in D:\dev\custom\spring)
+2020-04-16 10:22:40.695 [main] INFO  com.example.demo.DemoApplication The following profiles are active: dev
+2020-04-16 10:22:41.251 [main] WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2020-04-16 10:22:41.261 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2020-04-16 10:22:41.626 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2020-04-16 10:22:41.636 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-16 10:22:41.643 [main] INFO  org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-16 10:22:41.643 [main] INFO  org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 10:22:41.719 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-16 10:22:41.719 [main] INFO  org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 961 ms
+2020-04-16 10:22:41.924 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 10:22:41.994 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-04-16 10:22:42.019 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-04-16 10:22:42.019 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-04-16 10:22:42.020 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-04-16 10:22:42.021 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler Clear EntityHelper entityTableMap cache.
+2020-04-16 10:22:42.240 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2020-04-16 10:22:42.256 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 10:22:42.259 [main] INFO  com.example.demo.DemoApplication Started DemoApplication in 2.004 seconds (JVM running for 2.868)
